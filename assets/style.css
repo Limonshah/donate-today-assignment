@@ -62,13 +62,6 @@ body{
     border-bottom: 2px solid red;
     text-align: center;
 }
-
-
-hr {
-    width: 50%;
-    color: #d4cfcf
-    ;
-}
 input[type="text"] {
     text-align: center;
 }
