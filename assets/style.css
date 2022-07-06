@@ -205,3 +205,19 @@ input[type="text"] {
     color:#fa5e5e;
     font-family: 'Dancing Script', cursive;
 }
+.location {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.location img{
+    width: 100%;
+    width: 350px;
+    height: 300px;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.location-title{
+    text-align: center;
+    margin-top: 50px;
+}
