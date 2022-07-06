@@ -26,3 +26,57 @@ body{
     background-color: #FF5959;
     border-radius: 5px;
 }
+#donate-today {
+    text-align: center;
+    margin-top: 70px;
+}
+
+#donate-today h2{
+    font-size: 40px;
+}
+#danate-taka{
+    display: flex;
+    justify-content: center;
+}
+#danate-taka h3{
+    padding:20px;
+    margin:20px;  
+
+}
+.amount-tk h3{
+    color: #555353;
+    background: #efecec;
+    border-radius: 5px;
+}
+.amount-2000tk h3{
+    background: #FFEEEE;
+    color: #fa5e5e;
+    border: 3px solid #fa5e5e;
+    border-radius: 5px;
+}
+#others-amount{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-style: none;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+
+
+hr {
+    width: 50%;
+    color: #d4cfcf
+    ;
+}
+input[type="text"] {
+    text-align: center;
+}
+.mid-button{
+    padding: 15px 15px;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #FF5959;
+    border-radius: 5px;
+    margin-top: 30px;
+}
