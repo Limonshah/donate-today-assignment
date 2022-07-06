@@ -1,60 +1,71 @@
-body{
+body {
     font-family: 'Merriweather', serif;
     margin: 0;
 }
+
 #top-banner {
     text-align: center;
     background: linear-gradient(360deg, #000000 0%, rgba(18, 18, 18, 0) 100%),
-    url(images/donation12.png);
+        url(images/donation12.png);
     background-repeat: no-repeat;
     padding-top: 150px;
     padding-bottom: 100px;
 }
 
-.banner-title{
+.banner-title {
     color: #ffffff;
     font-size: 60px;
 }
-.banner-para{
+
+.banner-para {
     color: #ffffff;
     font-size: 20px;
 }
-.top-button{
+
+.top-button {
     padding: 15px 15px;
     font-size: 30px;
     color: #ffffff;
     background-color: #FF5959;
     border-radius: 5px;
 }
-#donate-today, #main-donate {
+
+#donate-today,
+#main-donate {
     text-align: center;
     margin-top: 70px;
 }
 
-#donate-today h2, #main-donate h2{
+#donate-today h2,
+#main-donate h2 {
     font-size: 40px;
 }
-#danate-taka{
+
+#danate-taka {
     display: flex;
     justify-content: center;
 }
-#danate-taka h3{
-    padding:20px;
-    margin:20px;  
+
+#danate-taka h3 {
+    padding: 20px;
+    margin: 20px;
 
 }
-.amount-tk h3{
+
+.amount-tk h3 {
     color: #555353;
     background: #efecec;
     border-radius: 5px;
 }
-.amount-2000tk h3{
+
+.amount-2000tk h3 {
     background: #FFEEEE;
     color: #fa5e5e;
     border: 3px solid #fa5e5e;
     border-radius: 5px;
 }
-#others-amount{
+
+#others-amount {
     font-size: 20px;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -62,10 +73,12 @@ body{
     border-bottom: 2px solid red;
     text-align: center;
 }
+
 input[type="text"] {
     text-align: center;
 }
-.mid-button{
+
+.mid-button {
     padding: 15px 15px;
     font-size: 30px;
     color: #ffffff;
@@ -73,15 +86,8 @@ input[type="text"] {
     border-radius: 5px;
     margin-top: 30px;
 }
-.bottom-button{
-    padding: 5px;
-    font-size: 20px;
-    color: #ffffff;
-    background-color: #f76b6b;
-    border-radius: 5px;
-    margin-top: 30px;
-}
-.final-button{
+
+.bottom-button {
     padding: 5px;
     font-size: 20px;
     color: #ffffff;
@@ -90,44 +96,103 @@ input[type="text"] {
     margin-top: 30px;
 }
 
-#donate-plan{
+.final-button {
+    padding: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #f76b6b;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+#donate-plan {
     display: flex;
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
 }
-.donate-option{
-    padding:10px;
-    margin: 10px;  
+
+.donate-option {
+    padding: 10px;
+    margin: 10px;
 }
+
 .donate-option.food-area {
     background-color: #edf5f6;
     border-radius: 5px;
     padding-top: 50px;
 }
+
 .donate-option.shelter-area {
     background-color: #ffeeee;
     border-radius: 5px;
     padding-top: 50px;
 }
+
 .donate-option.edu-area {
     background-color: #fff4d6;
     border-radius: 5px;
     padding-top: 50px;
 }
-#live-donate ,#need-area{
+
+#live-donate,
+#need-area {
     display: flex;
     margin-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
 }
-.live-area , .need-option{
+
+.live-area,
+.need-option {
     padding-left: 50px;
     width: 50%;
 }
-.live-area img, .need-option img{
+
+.live-area img,
+.need-option img {
     height: 340px;
     width: 100%;
     border-radius: 5px;
 }
-/* .. */
+
+.sub-area {
+    align-items: center;
+}
+
+.subscribe {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sub-area {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #FFEBCD;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 250px;
+    margin-top: 25px;
+    display: flex;
+    border-radius: 5px;
+}
+
+#last-input {
+    background-color: #d9e2e2;
+    border-style: none;
+    width: 300px;
+    height: 43px;
+    margin-left: 51%;
+    border-radius: 5px;
+}
+
+#last-button {
+    background-color: #f77665;
+    margin-left: 154px;
+    height: 45px;
+    width: 102px;
+    color: white;
+    border-style: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
