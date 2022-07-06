@@ -76,7 +76,15 @@ input[type="text"] {
 .bottom-button{
     padding: 5px;
     font-size: 20px;
-    color: #fff;
+    color: #ffffff;
+    background-color: #f76b6b;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.final-button{
+    padding: 5px;
+    font-size: 20px;
+    color: #ffffff;
     background-color: #f76b6b;
     border-radius: 5px;
     margin-top: 30px;
@@ -107,17 +115,19 @@ input[type="text"] {
     border-radius: 5px;
     padding-top: 50px;
 }
-#live-donate{
+#live-donate ,#need-area{
     display: flex;
     margin-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
 }
-.live-area{
+.live-area , .need-option{
+    padding-left: 50px;
     width: 50%;
 }
-.live-area img{
+.live-area img, .need-option img{
     height: 340px;
     width: 100%;
     border-radius: 5px;
 }
+/* .. */
