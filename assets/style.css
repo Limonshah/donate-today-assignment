@@ -26,12 +26,12 @@ body{
     background-color: #FF5959;
     border-radius: 5px;
 }
-#donate-today {
+#donate-today, #main-donate {
     text-align: center;
     margin-top: 70px;
 }
 
-#donate-today h2{
+#donate-today h2, #main-donate h2{
     font-size: 40px;
 }
 #danate-taka{
@@ -72,4 +72,30 @@ input[type="text"] {
     background-color: #FF5959;
     border-radius: 5px;
     margin-top: 30px;
+}
+
+#donate-plan{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.donate-option{
+    padding:10px;
+    margin: 10px;  
+}
+.donate-option.food-area {
+    background-color: #edf5f6;
+    border-radius: 5px;
+    padding-top: 50px;
+}
+.donate-option.shelter-area {
+    background-color: #ffeeee;
+    border-radius: 5px;
+    padding-top: 50px;
+}
+.donate-option.edu-area {
+    background-color: #fff4d6;
+    border-radius: 5px;
+    padding-top: 50px;
 }
