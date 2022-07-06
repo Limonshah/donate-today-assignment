@@ -73,6 +73,14 @@ input[type="text"] {
     border-radius: 5px;
     margin-top: 30px;
 }
+.bottom-button{
+    padding: 5px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f76b6b;
+    border-radius: 5px;
+    margin-top: 30px;
+}
 
 #donate-plan{
     display: flex;
@@ -98,4 +106,18 @@ input[type="text"] {
     background-color: #fff4d6;
     border-radius: 5px;
     padding-top: 50px;
+}
+#live-donate{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.live-area{
+    width: 50%;
+}
+.live-area img{
+    height: 340px;
+    width: 100%;
+    border-radius: 5px;
 }
